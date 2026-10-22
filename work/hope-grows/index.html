@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hope Grows — Wellness Through Plants &amp; Art · Snowflake, Arizona</title>
+<meta name="description" content="Hope Grows is a nonprofit in the White Mountains of Arizona where wellness is achieved by growing plants and making art. Founded by Robert Czaplicki. Community garden, art residency, and quiet camping near Snowflake, AZ.">
+<!--
+  HOPE GROWS — static site (index / gallery / robert).
+  EDIT BEFORE GOING LIVE:
+    - email addresses (hopgrowsaz@gmail.com, hopegrowsartresidency@gmail.com)
+    - photos in assets/photos & assets/gallery — all REAL photos (Hipcamp +
+      their own hopegrowsaz.org). Add more real photos; never generated ones.
+    - content facts (EIN, address, payments) came from hopegrowsaz.org — confirm
+      with Robert. Robert's photo (robert-build.jpg) assumed to be him — confirm.
+  Robert does NOT sell his art — it decorates the property.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<script>try{var t=localStorage.getItem('hg-theme');if(!t)t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';if(t==='dark')document.documentElement.classList.add('dark');}catch(e){}</script>
+</head>
+<body>
+
+<nav>
+  <div class="container nav-inner">
+    <a class="logo" href="index.html">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <g class="sprout">
+          <path class="lg-stem" d="M12 21V11" stroke-width="2.5" stroke-linecap="round"/>
+          <path class="lg-1" d="M12 12C12 8 9 5 5 5c0 4 3 7 7 7Z"/>
+          <path class="lg-2" d="M12 14c0-4 3-7 7-7 0 4-3 7-7 7Z"/>
+        </g>
+      </svg>
+      Hope Grows
+    </a>
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="robert.html">Robert</a>
+      <a href="#residency">Residency</a>
+      <a href="#visit">Visit</a>
+      <span class="theme-toggle" role="group" aria-label="Color theme">
+        <button type="button" class="theme-btn" data-theme="light" aria-label="Light mode" title="Light mode">☀</button>
+        <button type="button" class="theme-btn" data-theme="dark" aria-label="Dark mode" title="Dark mode">☾</button>
+      </span>
+      <a class="nav-donate" href="#support">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="container">
+    <span class="eyebrow">Snowflake, Arizona · White Mountains</span>
+    <h1>Wellness <span class="squiggle">grows</span> here.</h1>
+    <p class="tagline">“At Hope Grows, we believe that wellness is achieved by growing plants and making art.”</p>
+    <div class="hero-btns">
+      <a class="btn" href="#visit">Plan a visit</a>
+      <a class="btn btn-ghost" href="#support">Support our garden</a>
+    </div>
+    <div class="photo reveal">
+      <img src="assets/photos/property-garden.jpg" alt="The garden at Hope Grows: stepping-stone path, tire planters and a blossoming tree">
+    </div>
+  </div>
+</header>
+
+<section id="mission">
+  <div class="container split">
+    <div class="reveal">
+      <span class="eyebrow">The mission</span>
+      <h2>A little piece of hope in the White Mountains</h2>
+      <p>Hope Grows is a nonprofit organization in Snowflake, Arizona, where people come to
+        grow plants, make art, and take a breath. What started as a garden and a green house
+        on forty acres of off-grid land has grown into a place for the whole community.</p>
+      <p>Whether you have muddy hands from the garden beds or you're just looking for a
+        peaceful night under Arizona's biggest skies, you're welcome here. Our programs are
+        built on a simple idea: <strong>growing things grows people.</strong></p>
+      <p><strong>Hope Grows is a registered 501(c)(3) organization</strong> (recognized since 2023),
+        so your gifts are tax-deductible.</p>
+    </div>
+    <div class="photo reveal">
+      <img src="assets/photos/property-pavilion.jpg" alt="The open-air pavilion at Hope Grows with garden art and a blue sky">
+    </div>
+  </div>
+</section>
+
+<div class="wave" aria-hidden="true"><svg viewBox="0 0 1440 36" preserveAspectRatio="none"><path d="M0 22 C 240 4, 480 34, 720 20 S 1200 4, 1440 22 L1440 36 L0 36 Z" fill="currentColor"/></svg></div>
+
+<section class="section-tint" id="robert-teaser">
+  <div class="container" style="text-align:center; max-width:760px;">
+    <span class="eyebrow">The founder</span>
+    <h2 class="reveal" style="font-size:clamp(1.7rem,3.6vw,2.3rem); margin-bottom:16px;">Meet Robert Czaplicki</h2>
+    <div class="pull reveal" style="text-align:left; max-width:600px; margin: 20px auto;">
+      “These plants started to feel better, and I started to feel better. Those seven small
+      plants became my daily mirror of wellness.”
+    </div>
+    <p class="reveal" style="color:var(--muted); max-width:600px; margin:0 auto 22px;">
+      Seven dying plants in a broken-down yard became a farm, a gallery, and a place where
+      anyone trying to get well can dig in the dirt. Today Robert runs the property with
+      artist Caryn Bopp and three very enthusiastic dogs.</p>
+    <a class="btn btn-ghost reveal" href="robert.html">Read Robert's story →</a>
+  </div>
+</section>
+
+<section id="programs">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Programs</span>
+      <h2>What happens here</h2>
+      <p>Three simple things, done with care.</p>
+    </div>
+    <div class="grid-3">
+      <article class="card reveal">
+        <div class="leaf-dot">01</div>
+        <h3>Grow</h3>
+        <p>Community garden beds and a green house full of vegetables, herbs and starts.
+          Learn to grow your own food, take home starts for your garden, or lend a hand
+          where it's needed.</p>
+      </article>
+      <article class="card reveal">
+        <div class="leaf-dot">02</div>
+        <h3>Make</h3>
+        <p>Art days in the garden — painting, potting, and seasonal work with Robert.
+          No experience needed, just a willingness to get your hands a little dirty.</p>
+      </article>
+      <article class="card reveal">
+        <div class="leaf-dot">03</div>
+        <h3>Rest</h3>
+        <p>A quiet campsite for tents and small campers, with a fire pit and star-filled
+          nights. Sometimes the most hopeful thing you can do is simply stop and breathe.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<div class="wave" aria-hidden="true"><svg viewBox="0 0 1440 36" preserveAspectRatio="none"><path d="M0 22 C 240 4, 480 34, 720 20 S 1200 4, 1440 22 L1440 36 L0 36 Z" fill="currentColor"/></svg></div>
+
+<section id="residency" class="section-tint">
+  <div class="container split">
+    <div class="reveal">
+      <span class="eyebrow">Art residency</span>
+      <h2>Live and work in the desert</h2>
+      <p>Artists and writers spend one to two weeks off-grid at Hope Grows to start or
+        finish a project. The studio comes with an etching press, hand and power tools,
+        and a covered pavilion next door — plus a small cabin, solar power, and Starlink.</p>
+      <p>Apply with a short proposal and up to ten examples of your work. Residency fees
+        are waived for our first season.</p>
+      <a class="btn" href="mailto:hopegrowsartresidency@gmail.com?subject=Art%20Residency" style="margin-top:8px">Apply for a residency</a>
+    </div>
+    <div class="photo reveal">
+      <img src="assets/photos/residency-studio.jpg" alt="The art studio at Hope Grows">
+    </div>
+  </div>
+</section>
+
+<section id="visit">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Visit</span>
+      <h2>Come see it in person</h2>
+      <p>About 12 miles from Snowflake, Arizona, tucked off Highway 260 in the White Mountains.</p>
+    </div>
+    <div class="photo photo-band reveal">
+      <img src="assets/photos/property-road.jpg" alt="The dirt road and gate at Hope Grows in golden evening light">
+    </div>
+    <div class="visit-grid">
+      <div class="visit-card reveal">
+        <h3>Camp at Hope Grows</h3>
+        <ul>
+          <li><span class="price">From $18 / night</span></li>
+          <li>Tents, campervans &amp; small RVs (under 20 ft)</li>
+          <li>Fire pit — campfires welcome</li>
+          <li>Potable water &amp; trash service</li>
+          <li>Pets welcome, off leash</li>
+          <li>Flat grass site, 2WD accessible</li>
+          <li>No hookups, no generators — that's the point</li>
+        </ul>
+        <p style="margin-top:14px;color:var(--muted);font-size:0.94rem">
+          Camping by reservation —
+          <a href="mailto:hopgrowsaz@gmail.com?subject=Camping%20reservation%20request">email us</a>
+          to check dates.</p>
+      </div>
+      <div class="visit-card reveal">
+        <h3>While you're in the area</h3>
+        <ul>
+          <li>Fool Hollow Lake Recreation Area — 17 mi</li>
+          <li>Lyman Lake State Park — 31 mi</li>
+          <li>Petrified Forest National Park — 35 mi</li>
+          <li>Apache-Sitgreaves National Forest — 41 mi</li>
+          <li>Snowflake &amp; Taylor — groceries, fuel, and history</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="testimonial">
+  <div class="container quote reveal">
+    <blockquote>“Great spot! Wonderful and friendly hosts! I enjoyed my peaceful night in this beautiful
+      area and the tour of the land. I can't wait to see what Hope Grows grows into on my next visit.”</blockquote>
+    <cite>Charissa L. · Camper · June 2025</cite>
+  </div>
+</section>
+
+<div class="wave" aria-hidden="true"><svg viewBox="0 0 1440 36" preserveAspectRatio="none"><path d="M0 22 C 240 4, 480 34, 720 20 S 1200 4, 1440 22 L1440 36 L0 36 Z" fill="currentColor"/></svg></div>
+
+<section id="support" class="section-tint">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Support</span>
+      <h2>Help it grow</h2>
+      <p>Every dollar, seedling and pair of helping hands goes right back into the garden.</p>
+    </div>
+    <div class="grid-3">
+      <div class="card reveal" style="text-align:center">
+        <h3>Donate</h3>
+        <p>Tax-deductible gifts keep the beds planted and the gate open.</p>
+        <a class="btn" href="mailto:hopgrowsaz@gmail.com?subject=I%20want%20to%20donate" style="margin-top:12px">Give today</a>
+      </div>
+      <div class="card reveal" style="text-align:center">
+        <h3>Volunteer</h3>
+        <p>Garden days, art days, and event help — all skill levels welcome.</p>
+        <a class="btn" href="mailto:hopgrowsaz@gmail.com?subject=Volunteering%20at%20Hope%20Grows" style="margin-top:12px">Lend a hand</a>
+      </div>
+      <div class="card reveal" style="text-align:center">
+        <h3>Sponsor a plot</h3>
+        <p>Local businesses can sponsor a garden plot and grow alongside us.</p>
+        <a class="btn" href="mailto:hopgrowsaz@gmail.com?subject=Sponsoring%20a%20garden%20plot" style="margin-top:12px">Sponsor</a>
+      </div>
+    </div>
+    <div class="donate-ways reveal">
+      <p><strong>Ways to give:</strong> Venmo <strong>@hopegrowsaz</strong> · Zelle &amp; PayPal
+        <strong>hopegrowsaz@gmail.com</strong> · Checks to <strong>Hope Grows AZ</strong>,
+        8750 E. Concho Highway, PMB 313, Snowflake, AZ 85937</p>
+      <p>501(c)(3) nonprofit · EIN 92-3065775 · Tax receipts on request</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Contact</span>
+      <h2>Say hello</h2>
+      <p>Questions about the garden, camping, or programs? We'd love to hear from you.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-item reveal">
+        <div class="label">Email</div>
+        <a href="mailto:hopgrowsaz@gmail.com">hopgrowsaz@gmail.com</a>
+      </div>
+      <div class="contact-item reveal">
+        <div class="label">Facebook</div>
+        <a href="https://www.facebook.com/healingdesert/" target="_blank" rel="noopener">Healing Desert page</a>
+      </div>
+      <div class="contact-item reveal">
+        <div class="label">Mail</div>
+        <span>8750 E. Concho Hwy, PMB 313<br>Snowflake, AZ 85937</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div><strong>Hope Grows</strong> — growing plants, making art, building hope.</div>
+      <div><a href="gallery.html">Gallery</a> · <a href="robert.html">Robert</a> · <a href="index.html#top">Top</a> · Site by <a href="../../index.html">SwiftSite</a></div>
+    </div>
+    <p class="fine">Hope Grows is a 501(c)(3) nonprofit organization · EIN 92-3065775. Donations are tax-deductible
+      to the extent allowed by law. © <span id="yr"></span> Hope Grows Arizona.</p>
+  </div>
+</footer>
+
+<script src="assets/site.js"></script>
+</body>
+</html>
