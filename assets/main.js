@@ -1,4 +1,4 @@
-// SwiftSite — site behavior
+// SwiftSite: site behavior
 // EDIT: BUSINESS_EMAIL below must match your real email address.
 
 (function () {
@@ -66,12 +66,12 @@
       var contact = (f.get("contact") || "").toString().trim();
       var need = (f.get("need") || "").toString().trim();
 
-      var subject = "Quote request" + (business ? " — " + business : "") + " (" + name + ")";
+      var subject = "Quote request" + (business ? " for " + business : "") + " (" + name + ")";
       var body =
         "Name: " + name + "\n" +
-        "Business: " + (business || "—") + "\n" +
+        "Business: " + (business || "n/a") + "\n" +
         "Contact: " + contact + "\n\n" +
-        "What they need:\n" + (need || "—") + "\n";
+        "What they need:\n" + (need || "n/a") + "\n";
 
       window.location.href =
         "mailto:" + BUSINESS_EMAIL +
@@ -81,12 +81,12 @@
       if (note) {
         note.hidden = false;
         note.textContent =
-          "Your email app should have opened with the details filled in — just hit send. " +
+          "Your email app should have opened with the details filled in, then just hit send. " +
           "If nothing opened, email us directly at " + BUSINESS_EMAIL + ".";
       }
     });
   }
 
   // brand name used in console easter egg (update if you rename)
-  console.log(BUSINESS_NAME + " — site loaded");
+  console.log(BUSINESS_NAME + ": site loaded");
 })();

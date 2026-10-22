@@ -1,4 +1,4 @@
-// Hope Grows — gentle interactivity
+// Hope Grows: gentle interactivity
 (function () {
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -48,7 +48,7 @@
     els.forEach(function (el) { el.classList.add('visible'); });
   }
 
-  // AFB-style leaf bursts on click — canvas-drawn leaves (bezier body, midrib,
+  // AFB-style leaf bursts on click: canvas-drawn leaves (bezier body, midrib,
   // side veins), 3-7 per burst. Click-only by owner's choice (no ambient drift).
   (function () {
     if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) { return; }

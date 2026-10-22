@@ -1,4 +1,4 @@
-/* SwiftSite — light, friendly, mainstream. Mobile-first. */
+/* SwiftSite: light, friendly, mainstream. Mobile-first. */
 
 :root {
   --bg: #f6f8fc;
@@ -27,7 +27,7 @@ body {
   overflow-x: hidden;
 }
 
-/* soft background wash — light and calm */
+/* soft background wash: light and calm */
 body::before {
   content: "";
   position: fixed;
@@ -328,7 +328,7 @@ a:hover { text-decoration: underline; }
   color: var(--primary);
   font-size: 1.3rem;
 }
-.faq-list details[open] summary::after { content: "–"; }
+.faq-list details[open] summary::after { content: "\2212"; }
 .faq-list details p { color: var(--muted); padding: 0 0 16px; font-size: 0.97rem; }
 
 /* contact */

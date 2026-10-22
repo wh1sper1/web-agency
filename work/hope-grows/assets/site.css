@@ -1,4 +1,4 @@
-/* Hope Grows — simple, friendly, alive. v8 */
+/* Hope Grows: simple, friendly, alive. v8 */
 
 :root {
   --bg: #fbfcf8;
@@ -76,7 +76,7 @@ img { max-width: 100%; display: block; }
   margin-bottom: 14px;
 }
 
-/* squiggle underline — one small hand-drawn touch */
+/* squiggle underline: one small hand-drawn touch */
 .squiggle { position: relative; white-space: nowrap; }
 .squiggle::after {
   content: "";
@@ -177,7 +177,7 @@ nav {
 .photo img { width: 100%; height: auto; transition: transform 0.5s ease; }
 .photo:hover img { transform: scale(1.02); }
 
-/* wavy divider — gentle, once per section break */
+/* wavy divider: gentle, once per section break */
 .wave { display: block; width: 100%; height: 36px; color: var(--tint); }
 .wave svg { display: block; width: 100%; height: 100%; }
 
@@ -235,7 +235,7 @@ section { padding: 76px 0; position: relative; }
 .visit-card h3 { margin-bottom: 14px; font-size: 1.3rem; }
 .visit-card ul { list-style: none; }
 .visit-card li { padding: 7px 0 7px 24px; position: relative; color: var(--muted); font-size: 0.98rem; }
-.visit-card li::before { content: "—"; position: absolute; left: 0; color: var(--green); }
+.visit-card li::before { content: "•"; position: absolute; left: 0; color: var(--green); }
 .price { font-weight: 600; color: var(--ink); }
 
 /* testimonial */
@@ -328,7 +328,7 @@ footer a { color: #eef5ea; }
   to { transform: rotate(4deg); }
 }
 
-/* falling leaf from clicks — AFB-style canvas burst (drawn leaves, no DOM nodes) */
+/* falling leaf from clicks: AFB-style canvas burst (drawn leaves, no DOM nodes) */
 #leafs {
   position: fixed;
   inset: 0;
